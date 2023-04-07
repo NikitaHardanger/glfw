@@ -49,8 +49,10 @@ project "GLFW"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		symbols "on"
+		buildoptions "/MD"
+		symbols "On"
 
 	filter "configurations:Release"
 		runtime "Release"
-		symbols "on"
+		buildoptions "/MD"
+		symbols "On"
